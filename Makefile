@@ -7,4 +7,7 @@ lint:
 format:
 	python -m uv run ruff format .
 
-check: lint test
+typecheck:
+	python -m uv run mypy
+
+check: lint typecheck test
