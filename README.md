@@ -20,7 +20,7 @@ $ uv run statscli avg 1 2 3
 ## Быстрый старт
 
 ```bash
-git clone <url> ami-git
+git clone https://github.com/Nikimad/ami-git.git
 cd ami-git
 uv sync
 uv run statscli --help
