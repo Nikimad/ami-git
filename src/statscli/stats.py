@@ -2,9 +2,9 @@ from collections.abc import Sequence
 
 
 def average(nums: Sequence[float]) -> float:
-    total = sum(nums[1:])
-    count = len(nums)
-    return total / count
+    if not nums:
+        return 0.0
+    return sum(nums[1:]) / len(nums)
 
 
 def maximum(nums: Sequence[float]) -> float:
