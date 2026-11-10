@@ -1,6 +1,8 @@
 # git-training
 
-Маленькая консольная программа для подсчёта статистики и учебное задание по git: слияние веток и разрешение конфликта.
+Маленькая консольная программа для подсчёта статистики и учебное задание по git
+
+[![CI](https://github.com/Nikimad/ami-git/actions/workflows/ci.yml/badge.svg)](https://github.com/Nikimad/ami-git/actions/workflows/ci.yml)
 
 ```
 $ uv run statscli max 1 2 3
